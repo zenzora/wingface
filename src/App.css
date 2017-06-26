@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+ul.chart  {
+  counter-reset: counter;
+  text-align: left;
+  margin-left: 20%;
+}
+
+ul.chart > li  {
+  color: #bababa;
+  display: block;
+  font-size: 11px;
+  line-height: 25px;
+  margin: 12px 0 8px;
+  padding: 0 0 0 50px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+ul.chart > li > strong  {
+  color: #121212;
+  display: block;
+  font-size: 3em;
+  font-weight: 400;
+  padding: 3px 0 18px;
+  text-transform: none;
+}
+
+ul.chart > li:before  {
+  color: #bababa;
+  content: counter(counter);
+  counter-increment: counter;
+  font: bold 32px/1 'Noto Sans', sans-serif;
+  left: 0;
+  margin: -16px 0 0;
+  position: absolute;
+  top: 50%;
+  transition: all 400ms ease;
+}
+
+
+ul.chart > li:hover:before  {
+  color: tomato;
+}
