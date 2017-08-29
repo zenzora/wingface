@@ -4,15 +4,15 @@
     "town": "Scarsdale, NY"
   },
   {
-    "name": "Planet Wings",
-    "town": "Ossining, NY"
-  },
-  {
     "name": "La Nova",
     "town": "Buffalo, NY"
   },
   {
     "name": "Doratos",
     "town": "Albany, NY"
+  },
+  {
+    "name": "Planet Wings",
+    "town": "Ossining, NY"
   }
 ]
